@@ -61,7 +61,7 @@ p {
     margin-bottom: 3rem;
 }
 
-.responsive-table{
+.responsive-table {
     overflow: hidden;
     overflow-x: auto;
 }
@@ -72,7 +72,7 @@ table {
     border-collapse: collapse;
 }
 
-table caption{
+table caption {
     font-style: italic;
     font-size: 1.6rem;
     text-align: left;

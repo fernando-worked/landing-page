@@ -190,6 +190,10 @@
     border: 0.1rem solid var(--primary-color);
 }
 
+.responsive-table.mobile {
+    display: none;
+}
+
 @media (max-width: 800px) {
 
     .intro-content,
@@ -270,11 +274,38 @@
         content: '×';
     }
 
-
-
-
     .menu-spacing {
         display: none;
+    }
+
+    .responsive-table.web {
+        display: none;
+    }
+
+    .responsive-table.mobile {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .responsive-table.mobile .campo-holder{
+        display: flex;
+        flex-direction: line;
+    }
+
+    .responsive-table.mobile .cabecalho{
+        font-weight: 700;
+    }
+
+    .responsive-table.mobile .campo{
+        width: 15rem;
+    }
+
+    .card-table-mobile{
+        border: 0.1rem solid var(--primary-color);
+        border-collapse: collapse;
+        margin: 1rem 0;
     }
 
 }
